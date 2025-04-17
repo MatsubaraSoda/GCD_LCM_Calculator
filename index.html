@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>最大公因数和最小公倍数</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>最大公因数和最小公倍数计算器</h1>
+        <div class="input-group">
+            <label for="num1">数字 1：</label>
+            <input type="number" id="num1" min="1" max="10000">
+        </div>
+        <div class="input-group">
+            <label for="num2">数字 2：</label>
+            <input type="number" id="num2" min="1" max="10000">
+        </div>
+
+        <button onclick="calculate()">计算</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
